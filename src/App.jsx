@@ -1,6 +1,6 @@
 import Hero from './components/Hero'
 import Characters from './components/Characters/Characters'
-
+import UpsideDown from './components/UpsideDown'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Characters />
-  
+      <UpsideDown />
     </>
   )
 }
