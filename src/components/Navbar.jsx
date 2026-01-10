@@ -9,7 +9,6 @@ const Navbar = () => {
       <ul className="nav-links">
   <li><a href="#home">Home</a></li>
   <li><a href="#characters">Characters</a></li>
-  <li><a href="#episodes">Episodes</a></li>
   <li><a href="#upside-down">Upside Down</a></li>
 </ul>
 
