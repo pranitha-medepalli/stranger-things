@@ -5,64 +5,62 @@ const characters = [
   {
     name: 'Eleven',
     desc: 'A girl with psychokinetic abilities who opened the gate to the Upside Down.',
-    img: '/images/eleven1.jpg'
+    img: `${import.meta.env.BASE_URL}images/eleven1.jpg`
   },
   {
     name: 'Mike Wheeler',
     desc: 'A loyal leader driven by courage and empathy.',
-    img: '/images/mike1.jpg'
+    img: `${import.meta.env.BASE_URL}images/mike1.jpg`
   },
-   {
+  {
     name: 'Will Byers',
     desc: 'A sensitive boy deeply connected to the Upside Down.',
-    img: '/images/will.jpg'
+    img: `${import.meta.env.BASE_URL}images/will.jpg`
   },
-  
-  
   {
     name: 'Vecna',
     desc: 'A terrifying entity from the Upside Down feeding on trauma.',
-    img: '/images/henry.jpg'
+    img: `${import.meta.env.BASE_URL}images/henry.jpg`
   },
   {
     name: 'Lucas Sinclair',
     desc: 'A brave and practical thinker who always stands his ground.',
-    img: '/images/lucas1.jpg'
+    img: `${import.meta.env.BASE_URL}images/lucas1.jpg`
   },
   {
     name: 'Max Mayfield',
     desc: 'A fearless skateboarder with a strong will and troubled past.',
-    img: '/images/max1.jpg'
+    img: `${import.meta.env.BASE_URL}images/max1.jpg`
   },
- {
+  {
     name: 'Dustin Henderson',
     desc: 'The heart of the group, known for his intelligence and humor.',
-    img: '/images/dustin2.jpg'
+    img: `${import.meta.env.BASE_URL}images/dustin2.jpg`
   },
   {
     name: 'Steve Harrington',
     desc: 'From high school star to the group’s most reliable protector.',
-    img: '/images/steve1.jpg'
+    img: `${import.meta.env.BASE_URL}images/steve1.jpg`
   },
   {
     name: 'Nancy Wheeler',
     desc: 'A determined investigator who refuses to ignore the truth.',
-    img: '/images/nancy.jpg'
+    img: `${import.meta.env.BASE_URL}images/nancy.jpg`
   },
   {
-  name: 'Jonathan Byers',
-  desc: 'A quiet, artistic soul who protects his family with unwavering loyalty.',
-  img: '/images/jonathon.jpg'
-},
+    name: 'Jonathan Byers',
+    desc: 'A quiet, artistic soul who protects his family with unwavering loyalty.',
+    img: `${import.meta.env.BASE_URL}images/jonathon.jpg`
+  },
   {
     name: 'Robin Buckley',
     desc: 'Quick-witted, intelligent, and unapologetically herself.',
-    img: '/images/robin.jpg'
+    img: `${import.meta.env.BASE_URL}images/robin.jpg`
   },
   {
     name: 'Jim Hopper',
     desc: 'The tough but caring police chief who protects Hawkins.',
-    img: '/images/hopper.jpg'
+    img: `${import.meta.env.BASE_URL}images/hopper.jpg`
   }
 ]
 

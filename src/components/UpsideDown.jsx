@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 import './UpsideDown.css'
 
 const demogorgans = [
-  '/images/demogorgan1.png',
-  '/images/demogorgan2.png'
+  `${import.meta.env.BASE_URL}images/demogorgan1.png`,
+  `${import.meta.env.BASE_URL}images/demogorgan2.png`
 ]
 
 const container = {
